@@ -18,17 +18,16 @@ public class Position {
         this.row = row;
     }
 
-    public int getColum() {
+    public int getColumn() {
         return column;
     }
 
-    public void setColum(int column) {
-        this.column = column;
+    public void setColumn(int columns) {
+        this.column = columns;
     }
 
     @Override
     public String toString() {
-        // TODO Auto-generated method stub
         return row + "," + column;
     }
 
